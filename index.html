@@ -451,7 +451,13 @@
   </div>
 </div>
 <div class="section" id="contact">
-<img width="" src="https://maps.googleapis.com/maps/api/staticmap?center=Albany,+NY&zoom=2&scale=1&size=undefinedxundefined&maptype=roadmap&key=AIzaSyBmKjaR4GGCULYDzBWs133KLh3iIvyaTXg&callback=initMap&libraries=&v=weekly"&format=jpg&visual_refresh=true" alt="Google Map of Albany, NY">
+ <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmKjaR4GGCULYDzBWs133KLh3iIvyaTXg&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script src="./app.js"></script>
   <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
     <div class="container">
       <div class="cc-contact">

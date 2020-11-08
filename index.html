@@ -451,13 +451,51 @@
   </div>
 </div>
 <div class="section" id="contact">
- <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmKjaR4GGCULYDzBWs133KLh3iIvyaTXg&callback=initMap&libraries=&v=weekly"
       defer
     ></script>
-    <link rel="stylesheet" type="text/css" href="./map.css" />
-    <script src="./map.js"></script>
+    <style type="text/css">
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script>
+      "use strict";
+
+      function initMap() {
+        const myLatLng = {
+          lat: NaN,
+          lng: NaN
+        };
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: NaN,
+          center: myLatLng,
+          fullscreenControl: true,
+          zoomControl: true,
+          streetViewControl: false
+        });
+        new google.maps.Marker({
+          position: myLatLng,
+          map,
+          title: "Hello World!"
+        });
+      }
+    </script>
+    <div id="map"></div>
+  </body>
+</html>
   <div class="cc-contact-information" style="background-image: url('images/staticmap.png');">
     <div class="container">
       <div class="cc-contact">

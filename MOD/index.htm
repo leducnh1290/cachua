@@ -76,7 +76,18 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  -webkit-animation: colorchange 60s infinite; 
+    animation: colorchange 60s infinite;
+}
+@-webkit-keyframes colorchange {
+       0%  {background: #9c07f2;}
+    50%  {background: #df0d98;}
+    100% {background: #ff004a;}
+}
+@keyframes colorchange {
+         0%  {background: #9c07f2;}
+    50%  {background: #df0d98;}
+    100% {background: #ff004a;}
 }
 
 
@@ -9372,9 +9383,7 @@ var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async
 hs.src = ('//s10.histats.com/js15_as.js');
 (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
 })();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4685932&101" alt="" border="0"></a></noscript>
-<h1><a href="https://www.hitwebcounter.com" target="_blank">
-<img src="https://hitwebcounter.com/counter/counter.php?page=8022800&style=0035&nbdigits=5&type=ip&initCount=0" title="Free Counter" Alt="web counter"   border="0" /></a></h1>     
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4685932&101" alt="" border="0"></a></noscript>     
 </div> 
 </div>
 </div>
@@ -9407,7 +9416,6 @@ hs.src = ('//s10.histats.com/js15_as.js');
     display: flex;
     
     display: flex;
-    background-image: linear-gradient(-20deg, #b6493e 0%, #b54264 100%);
 }
 
 </style>

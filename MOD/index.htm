@@ -76,18 +76,6 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  -webkit-animation: colorchange 30s ease-in-out infinite; 
-    animation: colorchange 30s ease-in-out infinite;
-}
-@-webkit-keyframes colorchange {
-       0%  {background: #9c07f2;}
-    50%  {background: #df0d98;}
-    100% {background: #ff004a;}
-}
-@keyframes colorchange {
-         0%  {background: #9c07f2;}
-    50%  {background: #df0d98;}
-    100% {background: #ff004a;}
 }
 
 
@@ -9026,8 +9014,25 @@ a:hover {
     letter-spacing: 0.6px;
 }
 
-body {background:linear-gradient(120deg, #fccb90 0%, #ec6987 100%); margin:0; padding:0;}
-
+body {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	width:100%;
+	animation: gradient 20s ease-in-out infinite;
+	height: 100vh;
+	osition: relative;
+	}
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 .avatarBox img {
     border-radius: 50%;
 box-shadow: 0px 5px 50px 0px #f16a52, 0px 0px 0px 7px rgb(237, 112, 135);

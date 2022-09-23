@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Theo âm lịch VN hôm nay là ngày 28 tháng Tháng Tám năm Nhâm Dần">
+        <title>Xem âm lịch Việt Nam ngày hôm nay</title>
+    </head>
+    <body>
+        <table style="max-width: 640px;margin: auto;border-spacing: 0">
+            <tbody>
+                <tr>
+                    <td>
+
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                        <title>Âm lịch Việt Nam</title>
+
+
+                        <table class="table-border"  width="100%">
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <table class="thang" width="100%">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2" id="thangduong" class="thangduong">Tháng 9 năm 2022</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" id="ngayduong" class="ngayduong">23</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2" id="thuduong" class="thuduong">Thứ sáu</td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td> 
+                                                        <div id="thangam" class="thangam">Tháng Tám</div>
+                                                        <div id="ngayam" class="ngayam">28</div>
+                                                        <div id="namam" class="thangam">Năm Nhâm Dần</div>
+                                                    </td>
+                                                    <td class="canchi">
+                                                        <div id="canchithang" class="gioam">Tháng Kỷ Dậu</div>
+                                                        <div id="canchingay" class="gioam">Ngày Kỷ Mão</div>
+                                                        <div id="canchigio" class="gioam">Giờ Giáp Tý</div>
+                                                        <!--<div id="tietkhi" class="gioam">Tiết Tiểu hàn</div>-->
+                                                    </td>
+                                                </tr>
+
+                                                <tr>
+                                                    <td colspan="2" id="dayinfo" class="info">&nbsp;</td>
+                                                </tr>
+
+                                             
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+
+                              
+                             
+                            </tbody>
+                        </table>
+
+                        <div class="navi-l">
+                            <form name="NaviForm" method="post">
+<!--                                <select name="mm">
+                                    
+                                </select>
+                                / <input name="yy" size="3" value="2022"> 
+                                <input type="submit" value="OK">
+                                &nbsp;-->
+                                <a href="/" title="Xem âm lịch ngày hôm nay" target="_blank">Xem âm lịch Việt Nam</a> 
+                                &nbsp;
+                            </form>
+
+                        </div>
+
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <style type="text/css">
+            body{
+                margin: 0
+            }
+            sub {color:blue}
+            a:link {color: green; TEXT-DECORATION: none}
+            /*a:link {color: #0066cc; TEXT-DECORATION: none}*/
+            a:visited {color: #0066cc;  text-decoration:none; }
+            .tennam {text-align:center; font-size:150%; line-height:120%; font-weight:bold; color:#000000; background: #CCCCCC}
+            .thang {font-size: 11pt;  font-family:Tahoma,Verdana,Arial; table-layout:fixed}
+            .tenthang {text-align:center; font-size:125%; line-height:100%; font-weight:bold; color:#330033; background: #CCFFCC}
+            .navi-l {text-align:center; font-size:100%; line-height:100%; font-weight:bold; }
+            .navi-r {text-align:center; font-size:75%; line-height:100%; font-family:Verdana,Arial,Times New Roman; font-weight:bold; color:#330033;}
+            .ngaytuan {width:14%; text-align:center; font-weight:bold; font-size:110%; line-height:100%; color:#330033; background: #d9edf7}
+            .ngaytuan td{
+                padding: 6px;
+            }
+            .ngaythang {padding: 6px 10px 6px 10px;}
+            .homnay {background:lightgoldenrodyellow;padding: 6px 10px 6px 10px;}
+            .tet {background:#FFCC99}
+            .am {text-align:right;font-size:80%;line-height:80%;color:blue}
+            .am2 {text-align:right;font-size:80%;line-height:80%;color:#004080}
+            .t2t6 {text-align:left;font-size:110%;color:black}
+            .t7 {text-align:left;font-size:110%;line-height:100%;color:green}
+            .cn {text-align:left;font-size:110%;line-height:100%;color:red}
+            .thangduong{text-align:center;font-size:125%; font-weight:bold; color:#fff; background: #ee0033;padding: 6px;}
+            .ngayduong{text-align:center;font-size:250%;font-weight:bold}
+            .thuduong{text-align:center;font-size:125%;font-weight:bold; color: blue;}
+            .thangam{text-align:center;font-size:80%;color:black}
+            .ngayam{text-align:center;font-size:200%;color:green;font-weight:bold}
+            .gioam{text-align:center;font-size:80%;color:black}
+            .canchi {vertical-align:top}
+            .normal {vertical-align:top; line-height:100%}
+            .hoangdao {font-size:80%;text-align: center;}
+            .info{text-align:center;font-size:100%;color:#FF33CC}
+            .table-border{
+                border-spacing: 0;
+            }
+            .table-border,.table-border-td td{
+                border: 1px solid #dfdfdf;
+            }
+
+            tr.selectmonth{
+                text-align: center;
+            }
+            td.selectmonth{
+                padding: 6px;
+            }
+            thead.selectmonth td{
+                padding-top: 6px;
+                border: none;
+            }
+            .navi-l{
+                background: #ee0033;
+            }
+            .navi-l form{
+                padding: 6px;
+            }
+            .navi-l form a{
+                color: #fff;;font-weight:bold;
+                line-height: 1.5;
+                text-decoration: underline;
+            }
+            .navi-l form input{
+                padding: 5px;color: #330033;
+            }
+            .navi-l form input[type=submit]{
+                padding: 6px 12px 6px 12px;
+            }
+            .navi-l form select{
+                padding: 6px 8px 6px 8px;color: #330033;
+            }
+        </style>
+
+    </body>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97194730-10"></script>
+    <script>
+window.dataLayer = window.dataLayer || [];
+function gtag() {
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'UA-97194730-10');
+    </script>
+
+</html>
